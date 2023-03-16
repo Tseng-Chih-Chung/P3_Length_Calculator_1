@@ -14,13 +14,13 @@
         <Label Content="盎司" HorizontalAlignment="Left" Height="30" Margin="10,130,0,0" VerticalAlignment="Top" Width="48"/>
         <Label Content="磅" HorizontalAlignment="Left" Height="30" Margin="10,160,0,0" VerticalAlignment="Top" Width="48"/>
         <Label Content="說明" HorizontalAlignment="Left" Height="30" Margin="10,190,0,0" VerticalAlignment="Top" Width="48"/>
-        <Button x:Name="Clean" Content="清除" HorizontalAlignment="Left" Height="26" Margin="10,225,0,0" VerticalAlignment="Top" Width="106"/>
+        <Button x:Name="Clean" Content="清除" HorizontalAlignment="Left" Height="26" Margin="10,225,0,0" VerticalAlignment="Top" Width="106" Click="Clean_Click"/>
         <TextBox x:Name="txtMG" HorizontalAlignment="Left" Height="30" Margin="63,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="213" KeyUp="txtMG_KeyUp_1"/>
-        <TextBox x:Name="txtG" HorizontalAlignment="Left" Height="30" Margin="63,40,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="213"/>
-        <TextBox x:Name="txtKG" HorizontalAlignment="Left" Height="30" Margin="63,70,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="213"/>
-        <TextBox x:Name="txtMT" HorizontalAlignment="Left" Height="30" Margin="63,100,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="213"/>
-        <TextBox x:Name="txtOZ" HorizontalAlignment="Left" Height="30" Margin="63,130,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="213"/>
-        <TextBox x:Name="txtLB" HorizontalAlignment="Left" Height="30" Margin="63,160,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="213"/>
+        <TextBox x:Name="txtG" HorizontalAlignment="Left" Height="30" Margin="63,40,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="213" KeyUp="txtG_KeyUp"/>
+        <TextBox x:Name="txtKG" HorizontalAlignment="Left" Height="30" Margin="63,70,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="213" KeyUp="txtKG_KeyUp"/>
+        <TextBox x:Name="txtMT" HorizontalAlignment="Left" Height="30" Margin="63,100,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="213" KeyUp="txtMT_KeyUp"/>
+        <TextBox x:Name="txtOZ" HorizontalAlignment="Left" Height="30" Margin="63,130,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="213" KeyUp="txtOZ_KeyUp"/>
+        <TextBox x:Name="txtLB" HorizontalAlignment="Left" Height="30" Margin="63,160,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="213" KeyUp="txtLB_KeyUp"/>
         <TextBox x:Name="txtInfo" HorizontalAlignment="Left" Height="30" Margin="63,190,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="213"/>
 
     </Grid>
