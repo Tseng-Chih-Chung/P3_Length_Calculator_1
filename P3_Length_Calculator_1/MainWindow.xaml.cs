@@ -24,5 +24,16 @@ namespace P3_Length_Calculator_1
         {
             InitializeComponent();
         }
+
+        private void txtMG_KeyUp_1(object sender, KeyEventArgs e)
+        {
+            double douMG;
+            douMG = Convert.ToDouble(txtMG.Text);
+            txtG.Text = string.Format("{0:0.#####}", douMG / 1000);
+            txtKG.Text = string.Format("{0:0.#####}", douMG / 1000000);
+            txtMT.Text = string.Format("{0:0.#####}", douMG / 1000000000);
+            txtOZ.Text = string.Format("{0:0.#####}", douMG / 28349.523125);
+            txtLB.Text = string.Format("{0:0.#####}", douMG / 453592.37);
+        }
     }
 }

@@ -5,8 +5,23 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:P3_Length_Calculator_1"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="286.4" Width="282.4">
     <Grid>
-        
+        <Label Content="毫克" HorizontalAlignment="Left" Height="30" Margin="10,10,0,0" VerticalAlignment="Top" Width="48"/>
+        <Label Content="公克" HorizontalAlignment="Left" Height="30" Margin="10,40,0,0" VerticalAlignment="Top" Width="48" RenderTransformOrigin="-0.112,-0.007"/>
+        <Label Content="公斤" HorizontalAlignment="Left" Height="30" Margin="10,70,0,0" VerticalAlignment="Top" Width="48"/>
+        <Label Content="公噸" HorizontalAlignment="Left" Height="30" Margin="10,100,0,0" VerticalAlignment="Top" Width="53"/>
+        <Label Content="盎司" HorizontalAlignment="Left" Height="30" Margin="10,130,0,0" VerticalAlignment="Top" Width="48"/>
+        <Label Content="磅" HorizontalAlignment="Left" Height="30" Margin="10,160,0,0" VerticalAlignment="Top" Width="48"/>
+        <Label Content="說明" HorizontalAlignment="Left" Height="30" Margin="10,190,0,0" VerticalAlignment="Top" Width="48"/>
+        <Button x:Name="Clean" Content="清除" HorizontalAlignment="Left" Height="26" Margin="10,225,0,0" VerticalAlignment="Top" Width="106"/>
+        <TextBox x:Name="txtMG" HorizontalAlignment="Left" Height="30" Margin="63,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="213" KeyUp="txtMG_KeyUp_1"/>
+        <TextBox x:Name="txtG" HorizontalAlignment="Left" Height="30" Margin="63,40,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="213"/>
+        <TextBox x:Name="txtKG" HorizontalAlignment="Left" Height="30" Margin="63,70,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="213"/>
+        <TextBox x:Name="txtMT" HorizontalAlignment="Left" Height="30" Margin="63,100,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="213"/>
+        <TextBox x:Name="txtOZ" HorizontalAlignment="Left" Height="30" Margin="63,130,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="213"/>
+        <TextBox x:Name="txtLB" HorizontalAlignment="Left" Height="30" Margin="63,160,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="213"/>
+        <TextBox x:Name="txtInfo" HorizontalAlignment="Left" Height="30" Margin="63,190,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="213"/>
+
     </Grid>
 </Window>
